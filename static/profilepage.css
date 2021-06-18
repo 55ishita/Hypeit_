@@ -1,0 +1,171 @@
+body{
+    
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+.About{
+    width:700px ;
+    height:550px;
+    background-color: whitesmoke; 
+    display: inline-block;
+    margin-left: 80px;
+    padding: 10px 10px 20px 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
+.portfolio{
+    width:700px ;
+    height:250px;
+    background-color: whitesmoke; 
+   
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+
+}
+.ImportantFigures{
+    width:700px ;
+    height:250px;
+    background-color: whitesmoke; 
+   
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+
+}
+.BackgroundandQualifications{
+    width:700px ;
+    height:250px;
+    background-color: whitesmoke; 
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
+.Message{
+    width: 350px;
+    height: 400px;
+    display: inline-block;
+   
+    margin-left: 100px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    
+    margin: 10px 15px;
+    
+    background-color: cornsilk;
+    box-shadow: 2px 2px 2px 1px orange;
+}
+.Reviews{
+    width: 350px;
+    height: 500px;
+    display: inline-block;
+   
+    margin-left: 100px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    
+    margin: 10px 15px;
+    
+    background-color: cornsilk;
+    box-shadow: 2px 2px 2px 1px orange;
+}
+.column {
+    float: right;
+   
+  }
+  .row {
+    display: flex;
+  }
+ .user img {
+    border-radius: 50%;
+    border:.7rem orange;
+  }
+  .user .name{
+    font-size: 30px;
+    color:rgb(29, 26, 26);
+    margin-left: 20px;
+    margin-top: -2px;
+    
+}
+
+ .user .post{
+    display: center;
+    font-size: 20px;
+    margin-top: -15px;
+    color:orange;
+    margin-left: 20px;
+}
+
+.info{
+    margin-left: 50px; 
+    text-align: leftt;
+    width:150;
+    font-size: 15px;
+}
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+.portfolio .box-container .box{
+    height: 140px;
+    width:  140px;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.portfolio .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+   
+}
+
+.portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+.ImportantFigures .column .counter .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    width:90px;
+    background:#222;
+    text-align: center;
+    padding: 20px;
+    margin:20px;
+    float: right;
+}
+
+.ImportantFigures .column .counter .box span{
+    font-size: 20px;
+    color: orange;
+}
+
+.ImportantFigures .column .counter .box h3{
+    font-size: 20px;
+    color:#fff;
+}
